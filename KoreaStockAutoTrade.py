@@ -4,7 +4,7 @@ import datetime
 import time
 import yaml
 
-with open('config.yaml', encoding='UTF-8') as f:
+with open('C:/Users/cc843/Desktop/辛旻宗/주식프로젝트/key/config.yaml', encoding='UTF-8') as f:
     _cfg = yaml.load(f, Loader=yaml.FullLoader)
 APP_KEY = _cfg['APP_KEY']
 APP_SECRET = _cfg['APP_SECRET']
